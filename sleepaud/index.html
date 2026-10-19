@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - SleepAud</title>
+    <style>
+        :root {
+            --bg-color: #0c0f17;
+            --card-bg: #151a24;
+            --text-primary: #f0f4f8;
+            --text-secondary: #94a3b8;
+            --accent-primary: #6366f1;
+            --accent-secondary: #00e5ff;
+            --border-color: #232b3b;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            margin: 0;
+            padding: 24px;
+        }
+        .container {
+            max-width: 760px;
+            margin: 40px auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 32px 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        }
+        h1 {
+            color: var(--text-primary);
+            font-size: 28px;
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+        .last-updated {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+        h2 {
+            color: var(--accent-secondary);
+            font-size: 18px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-top: 28px;
+        }
+        p, li {
+            color: var(--text-secondary);
+            font-size: 15px;
+        }
+        strong {
+            color: var(--text-primary);
+        }
+        code {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 13px;
+            color: var(--text-primary);
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: var(--accent-secondary);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border-color);
+            font-size: 13px;
+            color: var(--text-secondary);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SleepAud Privacy Policy</h1>
+        <div class="last-updated">Last updated: October 2026</div>
+
+        <p>SleepAud, created by BoldKiteLabs ("we", "our", or "the app"), is committed to protecting user privacy. SleepAud is designed from the ground up as a private, distraction-free sleep podcast player.</p>
+
+        <h2>1. Information Collection & Usage</h2>
+        <p><strong>SleepAud does not collect, record, or store personal data on any server operated by us.</strong></p>
+        <ul>
+            <li><strong>No User Accounts:</strong> You do not need to register, log in, or provide an email address to use SleepAud.</li>
+            <li><strong>No Third-Party Analytics:</strong> The app does not include analytics SDKs (such as Firebase or Google Analytics), telemetry, or behavioral tracking.</li>
+            <li><strong>No Advertising Trackers:</strong> The application contains no advertising SDKs, cross-app tracking identifiers, or Google Advertising IDs (AAID).</li>
+        </ul>
+
+        <h2>2. Device Storage & Local Data</h2>
+        <p>All user data within SleepAud is stored strictly locally on your Android device:</p>
+        <ul>
+            <li><strong>Podcast Subscriptions & Preferences:</strong> Saved locally in your device's private app sandbox (<code>SharedPreferences</code>).</li>
+            <li><strong>Audio Cache:</strong> Pre-downloaded and cached audio files are stored in your device's internal app cache directory and can be deleted at any time via the "Clear Cache" button within the app.</li>
+            <li><strong>No Cloud Sync:</strong> Subscriptions and playback history never leave your device.</li>
+        </ul>
+
+        <h2>3. Third-Party Network Requests & External Feeds</h2>
+        <p>SleepAud connects exclusively via encrypted HTTPS directly to third-party endpoints in response to user actions:</p>
+        <ul>
+            <li><strong>Apple iTunes Search API:</strong> When searching for podcasts, your search terms are sent directly to Apple's iTunes Search API (<code>https://itunes.apple.com/search</code>) to fetch results.</li>
+            <li><strong>Podcast RSS Hosts & CDNs:</strong> When subscribing, refreshing feeds, or playing/downloading episodes, your device connects directly to the respective podcast publisher's RSS hosting server or audio CDN.</li>
+            <li><strong>Technical Connection Information:</strong> Connecting directly to Apple or podcast hosts transmits standard HTTP request headers, including your device's IP address and the app's User-Agent string (<code>SleepAud/1.0</code>). We do not operate proxy servers, and we never collect, intercept, or log this traffic. These services are governed by their own independent privacy policies.</li>
+        </ul>
+
+        <h2>4. Device Permissions</h2>
+        <p>SleepAud requests only the minimal permissions required for audio playback:</p>
+        <ul>
+            <li><code>android.permission.INTERNET</code>: Fetches podcast RSS feeds, search results, and audio files over HTTPS.</li>
+            <li><code>android.permission.ACCESS_NETWORK_STATE</code>: Verifies active internet connectivity before starting network streams.</li>
+            <li><code>android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK</code>: Keeps audio playback active while your screen is off or while you sleep.</li>
+            <li><code>android.permission.WAKE_LOCK</code>: Ensures CPU stays awake for audio decoding when the display powers down.</li>
+            <li><code>android.permission.POST_NOTIFICATIONS</code> (Android 13+): Displays playback controls (Play, Pause, Skip, Track Title) in the system notification drawer and lock screen.</li>
+        </ul>
+
+        <h2>5. Children's Privacy</h2>
+        <p>SleepAud does not collect personal data from anyone, including children under 13. Third-party podcast feeds accessible through search or custom RSS URLs may contain explicit material, so the application is targeted at users aged 13 and older.</p>
+
+        <h2>6. Changes to This Policy</h2>
+        <p>If this Privacy Policy is updated, the revised version will be published here with an updated revision date.</p>
+
+        <h2>7. Contact</h2>
+        <p>For questions or privacy inquiries, contact us at:</p>
+        <ul>
+            <li>Email: <a href="mailto:boldkitelabs@proton.me">boldkitelabs@proton.me</a></li>
+            <li>GitHub Issues: <a href="https://github.com/BoldKiteLabs/privacy-policies/issues" target="_blank">github.com/BoldKiteLabs/privacy-policies/issues</a></li>
+        </ul>
+
+        <div class="footer">
+            &copy; 2026 BoldKiteLabs. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
