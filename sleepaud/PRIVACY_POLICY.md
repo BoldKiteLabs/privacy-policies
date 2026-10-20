@@ -58,10 +58,3 @@ SleepAud does not collect any personal data from anyone, including children unde
 
 If this Privacy Policy is updated, the revised version will be published at our public policy URL with an updated revision date.
 
----
-
-### 7. Contact Us
-
-If you have questions, feedback, or inquiries regarding this Privacy Policy or data privacy in SleepAud, please contact us at:
-- **Email**: `boldkitelabs@proton.me`
-- **GitHub Issues**: [https://github.com/BoldKiteLabs/privacy-policies/issues](https://github.com/BoldKiteLabs/privacy-policies/issues)

@@ -23,9 +23,3 @@ To publish a privacy policy for a new BoldKiteLabs application:
 3. Add an entry to [index.html](./index.html) and the table above.
 4. Commit and push to `main`. The policy will be live at `https://boldkitelabs.github.io/privacy-policies/my-app/`.
 
----
-
-## Contact
-
-- **Email**: [boldkitelabs@proton.me](mailto:boldkitelabs@proton.me)
-- **Issues & Inquiries**: [https://github.com/BoldKiteLabs/privacy-policies/issues](https://github.com/BoldKiteLabs/privacy-policies/issues)
